@@ -4,8 +4,12 @@
   "description": "Real time on/off switch with jquery, express and socket.io",
   "main": "server.js",
   "repository": "git@github.com:bigandy/jquery-socket.git",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
     "express": "^4.13.3",
+    "nodemon": "^1.9.0",
     "redis": "^2.4.2",
     "socket.io": "^1.4.0",
     "socket.io-redis": "^0.1.4"
